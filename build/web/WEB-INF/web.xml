@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>AddAccountant</servlet-name>
+		<servlet-class>AddAccountant</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddAccountant</servlet-name>
+		<url-pattern>/AddAccountant</url-pattern>
+
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>AdminLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+		
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AdminPanel</servlet-name>
+		<servlet-class>AdminPanel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminPanel</servlet-name>
+		<url-pattern>/AdminPanel</url-pattern>
+		
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddAccountantForm</servlet-name>
+		<servlet-class>AddAccountantForm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddAccountantForm</servlet-name>
+		<url-pattern>/AddAccountantForm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AdminPanel2</servlet-name>
+		<servlet-class>AdminPanel2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminPanel2</servlet-name>
+		<url-pattern>/AdminPanel2</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ViewAccountant</servlet-name>
+		<servlet-class>ViewAccountant</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewAccountant</servlet-name>
+		<url-pattern>/ViewAccountant</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LogoutAdmin</servlet-name>
+		<servlet-class>LogoutAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutAdmin</servlet-name>
+		<url-pattern>/LogoutAdmin</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AccountantPanel</servlet-name>
+		<servlet-class>AccountantPanel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccountantPanel</servlet-name>
+		<url-pattern>/AccountantPanel</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AccountantLogin</servlet-name>
+		<servlet-class>AccountantLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccountantLogin</servlet-name>
+		<url-pattern>/AccountantLogin</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddStudentForm</servlet-name>
+		<servlet-class>AddStudentForm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddStudentForm</servlet-name>
+		<url-pattern>/AddStudentForm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddStudent</servlet-name>
+		<servlet-class>AddStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddStudent</servlet-name>
+		<url-pattern>/AddStudent</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewStudent</servlet-name>
+		<servlet-class>ViewStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewStudent</servlet-name>
+		<url-pattern>/ViewStudent</url-pattern>
+	</servlet-mapping>
+        <servlet>
+		<servlet-name>DueStudent</servlet-name>
+		<servlet-class>DueStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DueStudent</servlet-name>
+		<url-pattern>/DueStudent</url-pattern>
+	</servlet-mapping>
+          <servlet>
+		<servlet-name>SearchStudentForm</servlet-name>
+		<servlet-class>SearchStudentForm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchStudentForm</servlet-name>
+		<url-pattern>/SearchStudentForm</url-pattern>
+	</servlet-mapping>
+         <servlet>
+		<servlet-name>SearchStudent</servlet-name>
+		<servlet-class>SearchStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchStudent</servlet-name>
+		<url-pattern>/SearchStudent</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+
+</web-app>
